@@ -1,0 +1,58 @@
+S q0 q1 q2 q3 q4 q5 q6
+lambda bowl wrap sandwich rice noodle tortilla pita sub bun bread toasted chicken beef seafood pork lamb turkey veggie hot vinaigrette mayonnaise pesto marinara white garlic lettuce spinach tomatoes olives onions peppers pickles mushrooms beans avocado cheese
+S
+q6
+
+S bowl lambda A q1
+S wrap lambda B q1
+S sandwich lambda C q1
+
+q1 noodle A D q2
+q1 rice A D q2
+q1 lambda A D q2
+q1 pita B E q3
+q1 tortilla B E q3
+q1 bread C G q4
+q1 bun C G q4
+q1 sub C G q4
+
+q2 chicken D lambda q6
+q2 beef D lambda q6
+q2 seafood D lambda q6
+q2 pork D lambda q6
+q2 lambda D lambda q6
+
+q3 chicken E lambda q6
+q3 beef E lambda q6
+q3 pork E lambda q6
+q3 lamb E lambda q6
+q3 lambda E lambda q6
+
+q4 toasted G F q5
+q4 lambda G F q5
+
+q5 chicken F lambda q6
+q5 beef F lambda q6
+q5 pork F lambda q6
+q5 turkey F lambda q6
+q5 lambda F lambda q6
+
+q6 lettuce lambda lambda q6
+q6 spinach lambda lambda q6
+q6 tomatoes lambda lambda q6
+q6 onions lambda lambda q6
+q6 olives lambda lambda q6
+q6 peppers lambda lambda q6
+q6 pickles lambda lambda q6
+q6 mushrooms lambda lambda q6
+q6 beans lambda lambda q6
+q6 avocado lambda lambda q6
+q6 cheese lambda lambda q6
+q6 hot lambda lambda q6
+q6 vinaigrette lambda lambda q6
+q6 mayonnaise lambda lambda q6
+q6 pesto lambda lambda q6
+q6 marinara lambda lambda q6
+q6 white lambda lambda q6
+q6 garlic lambda lambda q6
+q6 lambda lambda lambda q6
